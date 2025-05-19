@@ -19,8 +19,16 @@ body {
 }
 
 /* Header Styles */
+
+.cute-heading {
+    font-family: 'Comic Neue', cursive;
+    color: #ffffff; /* Optional: Adds a cute pink tone */
+  }
+  
+
+
 header {
-    background-color: #3498db;
+    background-color: #ff69aa;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -30,12 +38,12 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #2980b9;
+    background-color: #ffffff;
     padding: 10px 0;
 }
 
 nav a {
-    color: white;
+    color: rgb(146, 132, 132);
     text-decoration: none;
     margin: 0 20px;
     font-weight: 500;
@@ -72,7 +80,7 @@ nav a:hover {
 
 .cta-button {
     display: inline-block;
-    background-color: #3498db;
+    background-color: #67d0f9;
     color: white;
     padding: 12px 30px;
     border-radius: 25px;
@@ -145,7 +153,7 @@ nav a:hover {
 }
 
 .upload-btn {
-    background-color: #3498db;
+    background-color: #67d0f9;
     color: white;
     border: none;
     padding: 10px 20px;
